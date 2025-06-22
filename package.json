@@ -59,6 +59,7 @@
     "@stdlib/number-float64-base-to-float32": "^0.2.2",
     "@stdlib/stats-base-dists-normal-cdf": "^0.2.2",
     "@stdlib/stats-base-dists-normal-quantile": "^0.2.2",
+    "@stdlib/stats-base-ztest-alternative-resolve-str": "github:stdlib-js/stats-base-ztest-alternative-resolve-str#main",
     "@stdlib/stats-base-ztest-alternatives": "github:stdlib-js/stats-base-ztest-alternatives#main",
     "@stdlib/stats-base-ztest-one-sample-results-float32": "github:stdlib-js/stats-base-ztest-one-sample-results-float32#main",
     "@stdlib/stats-strided-smean": "github:stdlib-js/stats-strided-smean#main",
