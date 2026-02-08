@@ -56,7 +56,7 @@ A Z-test commonly refers to a one-sample location test which compares the mean o
 ## Usage
 
 ```javascript
-import sztest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-sztest@deno/mod.js';
+import sztest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-sztest@v0.1.1-deno/mod.js';
 ```
 
 #### sztest( N, alternative, alpha, mu, sigma, x, strideX, out )
@@ -186,7 +186,7 @@ var bool = ( out === results );
 ```javascript
 import Results from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-one-sample-results-float32@deno/mod.js';
 import normal from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-normal@deno/mod.js';
-import sztest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-sztest@deno/mod.js';
+import sztest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-sztest@v0.1.1-deno/mod.js';
 
 var x = normal( 1000, 0.0, 1.0, {
     'dtype': 'float32'
